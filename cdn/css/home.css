@@ -1,0 +1,35 @@
+.num {
+    font-family: "Helvetica Neue", Helvetica, "Noto Sans", sans-serif;
+    font-size: 43px;
+    color:white;
+}
+
+h4 {
+    color:white;
+}
+
+.tile-stats {
+    display: block;
+	padding: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 5px;
+	-moz-background-clip: padding;
+	border-radius: 5px;
+	background-clip: padding-box;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.firstblock .tile-stats {
+    background: rgb(255, 48, 80);
+}
+
+
+.secondblock .tile-stats {
+    background: rgb(255, 100, 80);
+}
