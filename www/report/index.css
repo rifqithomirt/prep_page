@@ -1,0 +1,36 @@
+table {
+    width: 1000px;
+}
+
+th.header {
+    width: 33%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+th.down {
+    height: 40px;
+}
+
+th.up {
+    height: 100px;
+}
+
+th.info {
+    width: 50%;
+}
+
+tr td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.labelhead.info {
+    display: inline-block;
+    width: 200px;
+}
+
+.header.title tbody tr td:nth-child(2) {
+    width:50px;
+}

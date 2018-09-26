@@ -1,0 +1,93 @@
+<div class="col-sm-9 col-xs-12">
+    <dl>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-2">Nama Material</span> <span class="tiwa">: </span><span id="materialName"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-2">Kode Material</span> <span class="tiwa">: </span><span id="materialCode"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-2">Lot Number</span> <span class="tiwa">: </span><span id="lotnumber"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-2">Reference</span> <span class="tiwa">: </span><span id="referenceid"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-2">Timbangan</span> <span class="tiwa">: </span><span id="scale"></span>
+            </dt>
+        </div>
+    </dl>
+</div>
+<div class="col-sm-3 col-xs-12">
+    <div id="head-table" class="tile-stats taraopt">
+        <h3 class="text-center text-tara-opt">TARA OPTION</h3>
+        <br>
+        <div class="checkbox text-center checkbox align-middle">
+            <label style="font-size: 2.5em">
+                <input type="checkbox" value="" id="taraoption" checked>
+                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+            </label>
+        </div>
+    </div>
+</div>
+<div class="col-sm-12 col-xs-12">
+    <div id="head-table" class="tile-stats">
+        <div id="command">COMMAND</div>
+    </div>
+</div>
+<div class="col-sm-12 col-xs-12 text-center">
+    <button id="get" type="button" class="btn btn-info btn-lg " disabled="disabled">Get</button>
+</div>
+<div class="col-sm-6 col-xs-12">
+    <div class="tile-stats scale">
+        <h3 class="labelh text-left">SCALE</h3>
+        <div class="count"><span id="count">null</span><span id="uom">  Kg</span></div>
+    </div>
+</div>
+<div class="col-sm-6 col-xs-12">
+    <div class="tile-stats scale">
+        <h3 class="labelh text-left">TARGET</h3>
+        <div class="count"><span id="target">----</span><span id="uom">  Kg</span></div>
+    </div>
+</div>
+<div class="col-sm-6 col-xs-12">
+    <div class="tile-stats scale">
+        <h3 class="labelh text-left">JUMLAH</h3>
+        <div class="count"><span id="jumlah">null</span><span id="uom">  Kg</span></div>
+    </div>
+</div>
+<div class="col-sm-6 col-xs-12">
+    <div class="tile-stats scale">
+        <h3 class="labelh text-left">KURANG</h3>
+        <div class="count"><span id="kurang">----</span><span id="uom">  Kg</span></div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>List Penimbangan </h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table id="datatable" class="table table-striped jambo_table bulk_action"></table>
+        </div>
+        <div class="x_title">
+            <div class="clearfix"></div>
+            <button id="save" type="button" class="btn btn-info btn-lg" disabled="disabled">Save</button>
+            <button id="zerosisa" type="button" class="btn btn-info btn-lg hide" disabled="disabled">Zero Sisa</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+<div class="col-sm-6 col-xs-12">
+    <dl>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-3">Order Number</span> <span class="tiwa">: </span><span id="orderNumber"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-3">Material Name</span> <span class="tiwa">: </span><span id="materialName"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-3">Material Code</span> <span class="tiwa">: </span><span id="materialCode"></span>
+            </dt>
+        </div>
+    </dl>
+</div>
+<div class="col-sm-6 col-xs-12">
+    <dl>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-4">Lot Number</span> <span class="tiwa">: </span><span id="lotNumber"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-4">Weighing Number</span> <span class="tiwa">: </span><span id="weighingNumber"></span>
+            </dt>
+        </div>
+        <div class="tile-stats datas">
+            <dt>
+                <span class="labelo tiwa col-sm-4">Weighing Qty</span> <span class="tiwa">: </span><span id="weighingQty"></span>
+            </dt>
+        </div>
+    </dl>
+</div>
+<div class="col-sm-12 col-xs-12">
+    <dl>
+        <div class="tile-stats datas">
+            <dt>
+                <input class="col-sm-12" id="barcodeScanner" type="text" placeholder="Scan/Type Here">  </input>
+            </dt>
+        </div>
+    </dl>
+</div>
+<div class="col-md-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>List Penimbangan </h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table id="datatable" class="table table-striped jambo_table bulk_action"></table>
+        </div>
+        <div class="x_title">
+            <div class="clearfix"></div>
+            <button id="save" type="button" class="btn btn-info btn-lg" disabled="disabled">Finalize</button>
+        </div>
+    </div>
+</div>

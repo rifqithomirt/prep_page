@@ -1,0 +1,30 @@
+#wrapper div.firstblock,#wrapper  div.secondblock {
+    float:right
+}
+
+#page-content-wrapper2 {
+    width:50%;
+    float:right;
+}
+
+#page-content-wrapper2 .table-wrap {
+    margin-right:20px;
+}
+
+td, th {
+    text-align: center;
+}
+
+.data0 {
+    background-color: bisque;
+}
+div.datas {
+    padding-top:5px;
+    margin-bottom: 1px;
+}
+div.datas input {
+    height: 30px;
+    text-align: center;
+    border: none;
+    padding-top:2px;
+}

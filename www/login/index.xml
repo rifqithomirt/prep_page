@@ -1,0 +1,7 @@
+<div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="username" id="email" />
+                <input type="password" placeholder="password" id="pwd" />
+                <button type="button" class="btn btn-default" id="login">login</button>
+            </form>
+        </div>

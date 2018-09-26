@@ -1,0 +1,63 @@
+#wrapper #simple-sidebar {
+    background-color: #34495e;
+}
+
+#page-content-wrapper2 {
+    margin-top:20px;
+    margin-left: 300px;
+    width:70%;
+    float:left;
+}
+
+#page-content-wrapper2 .table-wrap {
+    margin-right:20px;
+}
+
+td, th {
+    text-align: center;
+}
+
+.data0 {
+    background-color: #95a5a6;
+}
+
+thead tr{
+    background-color: #7f8c8d;
+    color:white;
+}
+
+.tag-progress {
+    background-color: #f1c40f;
+}
+.tag-default {
+    background-color: rgb(129, 138, 145);
+}
+.tag-success {
+    background-color: #3498db;
+}
+.tag {
+    display: inline-block;
+    padding: 0.35em 0.4em;
+    font-size: 85%;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.18rem;
+}
+
+.table-wrap {
+    height: 500px;
+}
+
+/*
+thead tr{
+    background-color: aquamarine;
+}
+
+tr td:first-child {
+    width: 200px;
+}
+*/

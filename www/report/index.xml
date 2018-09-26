@@ -1,0 +1,82 @@
+<table class="header title">
+    <thead class="title">
+        <tr class="title">
+            <th class="header up">PT. OTSUKA INDONESIA</th>
+            <th class="header up">CATATAN PENIMBANGAN DAN PEMASUKAN BAHAN PRODUK AMINOFLUID (UPPER CHAMBER)</th>
+            <th class="header up">HALAMAN</th>
+        </tr>
+    </thead>
+</table>
+<br>
+<table id="info">
+    <thead >
+        <tr>
+            <th class="info left">
+                <span class="labelhead info" >Kode Produksi</span> : <span id="kodeProduksi"></span>
+                <br>
+                <span class="labelhead info" >Nomor Bets</span> : <span id="nomorBets"></span>
+                <br>
+                <span class="labelhead info" >Nomor tank / Volume</span> : <span id="nomorTank"></span>
+                <br>
+                <span class="labelhead info" >Temperatur ruang</span> : <span id="temperatur"></span>
+            </th>
+            <th class="info right">
+                <span class="labelhead info" >Tanggal produksi</span> : <span id="tanggalProduksi"></span>
+                <br>
+                <span class="labelhead info" >Tanggal penimbangan</span> : <span id="tanggalPenimbangan"></span>
+                <br>
+                <span class="labelhead info" >Jam mulai sd selesai</span> : <span id="jam"></span>
+                <br>
+                <span class="labelhead info" >Kelembaban ruang</span> : <span id="kelebaban"></span>
+            </th>
+        </tr>
+    </thead>
+</table>
+<br>
+<p style=" font-weight: bold;">I. Pemasukan Bahan</p>
+<table class="header title">
+    <thead class="title">
+        <tr class="title">
+            <th class="header " rowspan="3">Kode Bahan</th>
+            <th class="header " rowspan="3">Bahan Baku</th>
+            <th class="header " colspan="2">Sebelum Masuk Tangki</th>
+            <th class="header " colspan="3">Masuk Tangki</th>
+            <th class="header " rowspan="3">Penanggung Jawab/ Kepala Regu</th>
+        </tr>
+        <tr class="title">
+            <th class="header " rowspan="2">Berat Total Bahan Baku</th>
+            <th class="header " rowspan="2">Total Kemasan</th>
+            <th class="header " rowspan="2">Nomor Kemasan yang Dimasukkan</th>
+            <th class="header " colspan="2">Petugas</th>
+        </tr>
+        
+        <tr class="title">
+            <th class="header">1</th>
+            <th class="header">2</th>
+        </tr>
+    </thead>
+    <tbody id="bodyData">
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        
+    </tr>
+    </tbody>
+</table>

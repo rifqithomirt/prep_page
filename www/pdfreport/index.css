@@ -1,0 +1,88 @@
+#wrapper div.firstblock,#wrapper  div.secondblock {
+    float:right
+}
+
+#page-content-wrapper2 {
+    width:50%;
+    float:right;
+}
+
+#page-content-wrapper2 .table-wrap {
+    margin-right:20px;
+}
+
+td, th {
+    text-align: center;
+}
+
+.data0 {
+    background-color: bisque;
+}
+
+.head.label {
+    color:black;
+    font-size: 14px;
+}
+
+.tiwa {
+    color:black;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    float: left;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr th, tbody tr td{
+    border: 1px black solid;
+    text-align: center;
+    height: 25px;
+}
+
+tr td:first-child {
+    width: 200px;
+}
+
+tr td:nth-child(2) {
+    width: 200px;
+}
+
+tr td:nth-child(3) {
+    width: 200px;
+}
+
+tr td:nth-child(4) {
+    width: 150px;
+}
+
+tr td:nth-child(5) {
+    width: 200px;
+}
+
+tr td:nth-child(6) {
+    width: 200px;
+}
+
+#operator {
+    height: auto;
+    width:200px;
+    float: left;
+}
+
+#sign {
+    height: auto;
+    width:300px;
+    float: right;
+}
+
+#footer {
+    padding-top: 20px;
+}
+#footer div label {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

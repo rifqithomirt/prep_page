@@ -1,0 +1,35 @@
+#wrapper div.firstblock,#wrapper  div.secondblock {
+    float:right
+}
+
+#page-content-wrapper2 {
+    width:50%;
+    float:right;
+}
+
+#page-content-wrapper2 .table-wrap {
+    margin-right:20px;
+}
+
+td, th {
+    text-align: center;
+}
+
+.data0 {
+    background-color: bisque;
+}
+/*
+thead tr td, tbody tr td{
+    border: 1px black solid;
+    margin: 2px;
+    text-align: center;
+}
+
+thead tr{
+    background-color: aquamarine;
+}
+
+tr td:first-child {
+    width: 200px;
+}
+*/
